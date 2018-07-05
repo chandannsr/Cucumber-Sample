@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 286585,
+  "duration": 686442,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "Stepdefintion1.i_install_eclipse()"
 });
 formatter.result({
-  "duration": 602260881,
+  "duration": 108484740,
   "status": "passed"
 });
 formatter.scenario({
@@ -159,7 +159,7 @@ formatter.match({
   "location": "GoogleStepDefinitions.user_will_launch_chrome_browser_and_launch_google_portal()"
 });
 formatter.result({
-  "duration": 37142770245,
+  "duration": 34448117135,
   "status": "passed"
 });
 formatter.match({
@@ -172,14 +172,14 @@ formatter.match({
   "location": "GoogleStepDefinitions.user_will_Enter_number(int)"
 });
 formatter.result({
-  "duration": 6152469929,
+  "duration": 6124413758,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleStepDefinitions.user_will_Clear_search_text_field()"
 });
 formatter.result({
-  "duration": 6058002890,
+  "duration": 6047269767,
   "status": "passed"
 });
 formatter.match({
@@ -192,11 +192,11 @@ formatter.match({
   "location": "GoogleStepDefinitions.usewr_will_enter_in_Search_Text_field(String)"
 });
 formatter.result({
-  "duration": 129801841,
+  "duration": 139305560,
   "status": "passed"
 });
 formatter.after({
-  "duration": 43799,
+  "duration": 39269,
   "status": "passed"
 });
 });
