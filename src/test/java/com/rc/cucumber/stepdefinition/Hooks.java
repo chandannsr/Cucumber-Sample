@@ -3,6 +3,7 @@ package com.rc.cucumber.stepdefinition;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 
+
 public class Hooks {
 
 	@Before
@@ -13,5 +14,6 @@ public class Hooks {
 	@After
 	public static void afterhooks() {
 		System.out.println("Afterhooks");
+		
 	}
 }

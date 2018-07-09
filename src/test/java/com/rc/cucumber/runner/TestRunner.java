@@ -9,6 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features="src/test/java/com/rc/cucumber/feature",
 		glue="com.rc.cucumber.stepdefinition",
 		tags= {"@StepArgument"},
+		monochrome=true,
 				plugin= {"pretty","json:jsonresults/cucumber_json.json","html:html-reports/htmlcucumber_.html"}
 		)
 public class TestRunner {
